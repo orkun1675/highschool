@@ -1,5 +1,5 @@
 /* jQuery Superfish Menu Plugin - v1.7.4
- * http://users.tpg.com.au/j_birch/plugins/superfish/
+ * https://users.tpg.com.au/j_birch/plugins/superfish/
  */
 ;(function ($) {
 	"use strict";

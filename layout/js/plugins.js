@@ -9,7 +9,7 @@
 	$(document).ready(function(){
 		
 		// sticky header
-		// http://imakewebthings.com/jquery-waypoints/shortcuts/sticky-elements/	
+		// https://imakewebthings.com/jquery-waypoints/shortcuts/sticky-elements/	
 	
 		var stickyHeader = true;
 		
@@ -41,7 +41,7 @@
 		}
 		
 		// Superfish - enhance pure CSS drop-down menus
-		// http://users.tpg.com.au/j_birch/plugins/superfish/options/
+		// https://users.tpg.com.au/j_birch/plugins/superfish/options/
 		
 		if(typeof $.fn.superfish != 'undefined'){
 			
@@ -55,7 +55,7 @@
 		}
 		
 		// bxSlider - responsive slider
-		// http://bxslider.com/options
+		// https://bxslider.com/options
 		
 		if(typeof $.fn.bxSlider != 'undefined'){
 			
@@ -76,7 +76,7 @@
 		}
 				
 		// Magnific PopUp - responsive lightbox
-		// http://dimsemenov.com/plugins/magnific-popup/documentation.html
+		// https://dimsemenov.com/plugins/magnific-popup/documentation.html
 		
 		if(typeof $.fn.magnificPopup != 'undefined'){
 		
@@ -114,7 +114,7 @@
 		}
 		
 		// gMap -  embed Google Maps into your website; uses Google Maps v3
-		// http://labs.mario.ec/jquery-gmap/
+		// https://labs.mario.ec/jquery-gmap/
 		
 		if(typeof $.fn.gMap != 'undefined'){
 		
@@ -143,7 +143,7 @@
 		}
 		
 		// Isotope - portfolio filtering
-		// http://isotope.metafizzy.co/beta/
+		// https://isotope.metafizzy.co/beta/
 		
 		if((typeof $.fn.isotope != 'undefined') && ($(window).width() > 767)){
 			

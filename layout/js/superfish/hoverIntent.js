@@ -1,5 +1,5 @@
 /* hoverIntent - v.r7 
- * http://cherne.net/brian/resources/jquery.hoverIntent.html
+ * https://cherne.net/brian/resources/jquery.hoverIntent.html
  */
 (function($) {
     $.fn.hoverIntent = function(handlerIn,handlerOut,selector) {
