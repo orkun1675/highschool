@@ -954,7 +954,12 @@
                       <form class="fixed" id="contact-form"  name="contact-form" method="post" action="layout/php/send.php"> 
                             <fieldset>
                                 
-                                <div id="formstatus"></div>
+                                <div id="formstatus">
+                                    <div class="alert error">
+                                        <i class="fa fa-exclamation-circle"></i>
+                                        This form is disabled as the website is no longer maintained.
+                                    </div>
+                                </div>
                                         
                                 <input class="span8" id="name" type="text" name="name" value="" placeholder="enter your name here">
                             
@@ -964,7 +969,7 @@
                                 
                                 <textarea class="span8" id="message" name="message" rows="50" cols="25" placeholder="message"></textarea>
                                 
-                                <input id="submit" type="submit" name="submit" value="Send">
+                                <input id="submit" type="submit" name="submit" value="Disabled" disabled=>
                                    
                             </fieldset>
                         </form>
@@ -1087,13 +1092,11 @@ School Email: <a href="mailto:dumork.15@robcol.k12.tr">dumork.15@robcol.k12.tr</
     <script src="layout/js/jqueryform/jquery.form.min.js"></script>
     
     <!-- /// gMap ////////  -->
-	<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="https://maps.google.com/maps/api/js?key=AIzaSyB-cqz9CAQyAwD4G8STX9CEwDdxihVV8TA"></script>
 	<script src="layout/js/gmap/jquery.gmap.min.js"></script>
     
     <!-- /// Scrollspy ////////  -->
     <script src="layout/js/scrollspy/scrollspy.min.js"></script>
-    
-
 
 	<!-- /// Custom JS ////////  -->
     <script src="layout/js/scripts.js"></script>
